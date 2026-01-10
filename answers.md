@@ -39,3 +39,11 @@ drwx------. 2 j.rodriguezgomez domainusers 4096 Jan  9 13:51 j.rodriguezgomez/
 After quickly exploring the documentation explains how our chosen option "Preemptible Kernel (Low-Latency Desktop)" prioritizes low latency over throughput since kernel code can be interrupted without explicit preemption points.
 
     - Another possible reason: kernel preemption might make our system more resilient to bugs in our kernel modules since the system can always context switch to a higher priority section.
+
+6. Compilation Time
+
+Start:    Fri Jan  9 15:38:49 CST 2026
+End:      Fri Jan  9 16:24:00 CST 2026
+Duration: 00:45:11
+
+Reason for cross-compilation: As we saw at the start of this studio the linuxlab is running in an x86\_64 machine, however raspberry pis use an arm64 ISA, therefore native compilation in x86\_64 would not be compitable with our raspberry pi, therefore we must use a cross-compilation toolchain.

@@ -27,7 +27,7 @@ drwx------. 3 j.rodriguezgomez domainusers 2 Jan 13 10:22 j.rodriguezgomez/
 
 5. Kernel Configuration Options
 
-- Brief Function Description
+- Brief Function Description:
   - Name: Kernel performance events and counters
   - Description: Provides an abstraction of software and hardware performance events i.e. the kernel provides a consistent way to access features such as performance counter registers.
   - Symbol: PERF\_EVENTS
@@ -39,8 +39,7 @@ After quickly exploring the documentation explains how our chosen option "Preemp
 
 6. Compilation Time
 
-Start:    Fri Jan  9 15:38:49 CST 2026
-End:      Fri Jan  9 16:24:00 CST 2026
-Duration: 00:45:11
-
-Reason for cross-compilation: As we saw at the start of this studio the linuxlab is running in an x86\_64 machine, however raspberry pis use an arm64 ISA, therefore native compilation in x86\_64 would not be compitable with our raspberry pi, therefore we must use a cross-compilation toolchain.
+- Start:    Fri Jan  9 15:38:49 CST 2026
+- End:      Fri Jan  9 16:24:00 CST 2026
+- Duration: 00:45:11
+- Reason for cross-compilation: As we saw at the start of this studio the linuxlab is running in a x86\_64 machine, however raspberry pis use an arm64 ISA, therefore native compilation in x86\_64 would not be compatiblewith our raspberry pi, therefore we must use a cross-compilation toolchain.
